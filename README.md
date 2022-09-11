@@ -50,7 +50,6 @@ import * as Yup from 'yup';
    ```
    
    
-   ```javascript
    
    
   //-----------------------------------------------------------------------usign combonants -----------------------------------------------------------------//
@@ -61,7 +60,7 @@ import * as Yup from 'yup';
      import { Formik, Form, Field,useFormik } from 'formik';
      import * as Yup from 'yup';
    ```
-
+```javascript
    
    //you schema style validation 
     const SignupSchema = Yup.object().shape({
@@ -123,8 +122,5 @@ import * as Yup from 'yup';
                     </Form>
                 )}
             </Formik>
-```
-
-
 
 ```
