@@ -123,3 +123,13 @@ import * as Yup from 'yup';
             </Formik>
 
 ```
+
+
+# Field
+```javascript
+
+//to decide type element to render ---------> text area  {as='textarea'    as='select'  .....}
+<Field name="cardNumber" as='textarea'  placeholder="1234 5678 9101 1213" type="number" className="cardNumber" />
+
+
+```
