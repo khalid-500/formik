@@ -56,6 +56,9 @@ import * as Yup from 'yup';
      import * as Yup from 'yup';
    ```
    
+   
+   ```javascript
+   
    //you schema style validation 
     const SignupSchema = Yup.object().shape({
      cardNumber: Yup.string()
@@ -116,7 +119,7 @@ import * as Yup from 'yup';
                     </Form>
                 )}
             </Formik>
-
+```
 
 
 
