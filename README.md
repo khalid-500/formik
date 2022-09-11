@@ -52,9 +52,8 @@ import * as Yup from 'yup';
    
    
    
-  //-----------------------------------------------------------------------usign combonants -----------------------------------------------------------------//
  
-  ## import 
+  ## Using Componants 
    
    ```javascript
      import { Formik, Form, Field,useFormik } from 'formik';
